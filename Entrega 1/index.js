@@ -1,5 +1,6 @@
 const preciCelular = parseInt(prompt("Ingrese el monto de su celular"));
 const cuotas = prompt("Ingresar caintidad de cuotas 3/6/12: ");
+elegirCoutas(preciCelular, cuotas);
 function elegirCoutas(preciCelular, cuotas) {
   switch (cuotas) {
     case "3":
